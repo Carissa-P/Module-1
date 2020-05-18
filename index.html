@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-	<link href="styles/style.css" rel="stylesheet" type="text/css">
-    <title>Survey</title>
-  </head>
-  
-   <body>
+<head>
+<style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+</style>
+</head>
+<body>
 
 
 <div class="grid-container">
-
-  <div class="item1">1</div>
+  <div class="item1">
+      
+      <h2>Sephora User Interface</h2>
+      
+      <h1>Survey</h1>
+  </div>
+  
   <div class="item2">2</div>
   <div class="item3">3</div>  
 
  
 </div>
-   
-   </body>
+
+<p>You can refer to line numbers when placing grid items.</p>
+
+</body>
+</html>
