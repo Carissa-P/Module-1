@@ -12,8 +12,16 @@ header {
   background-color: #666;
   padding: 30px;
   text-align: center;
+}
+
+h1{
   font-size: 35px;
   color: white;
+}
+
+h2{
+  font-size: 30px;
+  color: pink;
 }
 
 /* Create two columns/boxes that floats next to each other */
