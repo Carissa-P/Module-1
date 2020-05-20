@@ -25,26 +25,33 @@
   
   <article>
      <form>
-	     <h1> What do you think of the <a href="http://www.sephora.ca">Sephora</a> UI </h1>
-         <p>What do you dislike about this website:</p>
+	 <h1> What do you think of the <a href="http://www.sephora.ca">Sephora</a> UI </h1>
+         <p>What do you like most about this website:</p>
          <textarea rows="2" cols="40" name="comment" form="usrform">
-         Enter text here...</textarea>
         
-          <p>Do you find this website easy to navigate</p>
+           <p>Do you find this website easy to navigate</p>
            <input type="radio" id="Yes" name="choice" value="Yes">
            <label for="male">Yes</label><br>
 
            <input type="radio" id="No" name="Choice" value="No">
            <label for="female">No</label><br>
   <br>  
-        <p>  Were you able to find what you were looking for? </p> 
-		<select id="favorite">
+       	    <p>  Were you able to find what you were looking for? </p> 
+	    <select id="favorite">
 			<option value="Yes, easily. " selected="selected">Yes, easily.</option>
 			<option value="Yes, but it took me longer than expected. ">Yes, but it took me longer than expected.</option>
 			<option value="No.">No</option>
-		</select>
-        
+	    </select>
+		  
+	    <p> What do you dislike about this website? Select all that apply.</p><br>
+		<input type="checkbox" name="Option" value="Colour scheme">Colour scheme<br>
+		<input type="checkbox" name="Option" value="Layout">Layout<br>
+		<input type="checkbox" name="Option" value="Options in navigation menu">Options in navigation menu <br>
+		<input type="checkbox" name="Option" value="The amount of products on the homepage">Layout<br>
  
+	<p>Please leave any additional comments below:</p>
+         <textarea rows="2" cols="40" name="comment" form="usrform"> 
+		 
      </form>
      
   </article>
