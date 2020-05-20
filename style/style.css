@@ -26,6 +26,7 @@ h2{
 img {
   display: block;
   margin: 0 auto;
+  width: 50%;
   align: left;
 }
 
@@ -33,7 +34,7 @@ img {
 aside{
   float: left;
   width: 50%;
-  background: #ccc;
+  background: #FFFFFF;
   padding: 20px;
 }
 
