@@ -33,7 +33,7 @@ img {
 aside{
   float: left;
   width: 50%;
-  background: #FFFFFF;
+  background: #000000;
   padding: 20px;
 }
 
@@ -41,7 +41,7 @@ article {
   float: left;
   padding: 20px;
   width: 50%;
-  background-color: #000000;
+  background-color: #f1f1f1;
 
 }
 
