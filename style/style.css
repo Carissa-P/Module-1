@@ -111,3 +111,10 @@ form .likert li input[type=radio] {
   cursor: pointer;
   text-align: center;
 }
+div 
+{ 
+  color: black ; 
+  background-color: #FFC0CB; 
+  margin: 2px; 
+  font-size: 25px; 
+} 
