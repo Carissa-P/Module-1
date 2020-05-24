@@ -81,7 +81,7 @@ form .likert:before {
   content: '';
   position:relative;
   top:11px;
-  left:9.5%;
+  left:10.5%;
   display:block;
   background-color:#808080;
   height:4px;
